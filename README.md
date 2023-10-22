@@ -1,0 +1,9 @@
+# isuconの設定類のリポジトリ
+
+メトリクスのグラフ化はPrometheusを用いて行う。
+
+server-scripts内にあるREADME.mdに従って、Prometheusエージェントをisuconのサーバー内に入れる。
+
+別のEC2か、どこか適当に立てたサーバーにGrafanaとPrometheusの本体をいれて、メトリクスを眺める。
+
+とりあえずローカルでisuconの練習をするときに楽に試せるようにdocker-composeで動かせるようにしておく。
