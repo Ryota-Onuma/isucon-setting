@@ -1,0 +1,8 @@
+# TODO: 本番ではプロセス名とかは当日のものに変更する
+process_names:
+  - name: isucholar
+    comm:
+    - isucholar
+  - name: "{{.Username}} processes"
+    cmdline:
+    - '.+'

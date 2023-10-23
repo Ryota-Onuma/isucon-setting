@@ -6,4 +6,6 @@ scrape_configs:
   - job_name: 'node-exporter'
     static_configs:
     - targets: ['localhost:9100'] # TODO: 環境変数で切り替えるように修正。node-exporterを動かしてるポートに合わせる
-
+  - job_name: 'process-exporters'
+    static_configs:
+    - targets: ['localhost:9256'] # TODO: 環境変数で切り替えるように修正。process-exporterを動かしてるポートに合わせる
